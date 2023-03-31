@@ -1,17 +1,22 @@
 import React from "react";
+import MenuImg from "../components/Menu/MenuImg";
+import Apps from "../components/Menu/Apps";
+import Entrees from "../components/Menu/Entrees";
+import Sides from "../components/Menu/Sides.js";
 
 function Menu() {
   return (
-    <div id="meats" class="col">
-            <h2>Choice of Meat</h2>
-            <ul class="choiceOfMeat">
-              <li>Tofu $9.95</li>
-              <li>Chicken / Vegetable $9.95</li>
-              <li>Beef $10.95</li>
-              <li>Shrimp $12.95</li>
-              <li>Chicken + Shrimp $13.95</li>
-            </ul>
-          </div> 
+
+  <div class="container-fluid">
+    <MenuImg />
+
+    <Apps />
+
+    <Entrees />
+
+    <Sides />
+
+  </div>
   )
 }
 
