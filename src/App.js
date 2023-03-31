@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Menu from './pages/Menu';
 import {Link, Route, Routes} from "react-router-dom";
 import './App.css';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         {/* <Route path="/schedule" element={} />
         <Route path="/about" element={} /> */} 
       </Routes>
+
+      <Footer />
     
     </>
   );
