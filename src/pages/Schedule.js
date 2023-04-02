@@ -1,4 +1,7 @@
 import React from "react";
+import ScheduleTitle from "../components/Schedule/ScheduleTitle";
+import ScheduleImg from "../components/Schedule/ScheduleImg";
+import ScheduleImg2023 from "../components/Schedule/ScheduleImg2023";
 import FAQs from "../components/Schedule/FAQs";
 import Contact from "../components/Schedule/Contact";
 
@@ -7,17 +10,17 @@ function Schedule() {
 
     <div className="container-fluid">
 
-      <ScheduleFirstHalf />
+      <ScheduleImg />
 
-      <ScheduleSecondHalf />
+      <ScheduleTitle />
+
+      <ScheduleImg2023 />
 
       <FAQs />
 
       <Contact />
       
     </div>
-    
-
 
   )
 }

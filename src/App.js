@@ -5,6 +5,7 @@ import About from './pages/About';
 import {Link, Route, Routes} from "react-router-dom";
 import './App.css';
 import Footer from "./components/Footer";
+import Schedule from './pages/Schedule';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
             <Link to="/menu">Menu</Link>
           </li>
           <li>
-            <Link to="/menu">Menu</Link>
+            <Link to="/schedule">Schedule</Link>
           </li>
           <li>
             <Link to="/about">About</Link>
@@ -29,6 +30,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/schedule" element={<Schedule />} /> 
         <Route path="/about" element={<About />} /> 
       </Routes>
 
