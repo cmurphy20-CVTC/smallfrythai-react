@@ -1,4 +1,5 @@
 import React from "react";
+import SchedulePic from "../../assets/pexels-clem-onojeghuo-104884.jpg";
 
 function ScheduleImg() {
   return(
@@ -7,7 +8,7 @@ function ScheduleImg() {
 
     <div class="row">
       <div class="col">
-        <img id="menuPic" class="titlePic" src="img/pexels-clem-onojeghuo-104884.jpg" alt="Cooking Thai Dishes"></img>
+        <img id="menuPic" class="titlePic" src={SchedulePic} alt="Cooking Thai Dishes"></img>
       </div>
     </div>
 

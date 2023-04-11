@@ -8,19 +8,26 @@ import Contact from "../components/Schedule/Contact";
 function Schedule() {
   return (
 
-    <div className="container-fluid">
+    <>
 
       <ScheduleImg />
 
-      <ScheduleTitle />
+      <section id="schedule" className="sampleMenuDiv">
 
-      <ScheduleImg2023 />
+        <ScheduleTitle />
 
-      <FAQs />
+        <ScheduleImg2023 />
 
-      <Contact />
+        </section>
+
+        <FAQs />
+
+        <Contact />
+
+     
       
-    </div>
+      </>
+   
 
   )
 }
