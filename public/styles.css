@@ -137,8 +137,6 @@ button > a:hover {
 }
 
 .sampleMenuPic {
-  border:#1a1c22 2px solid;
-  border-radius: 50%;
   align-items: right;
   height: 75%;
   margin-top: 15%;

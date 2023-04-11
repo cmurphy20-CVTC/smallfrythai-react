@@ -1,4 +1,5 @@
 import React from "react";
+import AppPic from '../../assets/pexels-rodnae-productions-6646372.jpg';
 
 function Apps() {
   return(
@@ -70,7 +71,7 @@ function Apps() {
               </div>
             
               <div class="appImgDiv col-lg-6">
-                <img id="appImg" class="sampleMenuPic" src="img/pexels-rodnae-productions-6646372.jpg" alt="Spring Roll"></img>
+                <img id="appImg" class="sampleMenuPic" src={AppPic} alt="Spring Roll"></img>
                 
                 
               </div> 

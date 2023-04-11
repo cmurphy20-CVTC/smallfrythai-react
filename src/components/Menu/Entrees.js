@@ -1,7 +1,9 @@
 import React from "react";
+import EntreeImg from '../../assets/pexels-cats-coming-1731535.jpg';
 
 function Entrees() {
   return(
+
     <section class="sampleMenuDiv">
 
         <div class="row sampleMenu">
@@ -10,8 +12,7 @@ function Entrees() {
             <em>Delicious entrees with generous portion sizes</em>
             <h2 id="menuTitle">Main Dishes</h2>
 
-            <img id="appImg" class="sampleMenuPic" src="img/pexels-cats-coming-1731535.jpg" alt="Main Dish"></img>
-            
+            <img id="appImg" class="sampleMenuPic" src={EntreeImg} alt="Main Dish"></img>
             
           </div> 
 
