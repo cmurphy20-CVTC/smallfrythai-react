@@ -1,0 +1,643 @@
+html {
+  min-height: 100vh;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 2em;
+}
+
+.container-fluid {
+  padding: 0px !important;
+}
+
+/* Nav */
+
+.navbar {
+  border-bottom: #1a1c22 1px solid;
+  background-color: #ff8008;
+  margin-top: .25%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 2;
+}
+
+.nav-link {
+  margin-top: 5%;
+  margin-right: 2.5em;
+  color: #f4fefd;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #1a1c22;
+}
+
+.navbar-toggler {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(60,60,60, .75)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  stroke: #1a1c22;
+}
+
+#brandLogo {
+  border:#1a1c22 2px solid;
+  border-radius: 50%;
+  height:8em;
+  margin-right: 5em;
+}
+
+/* Introduction Section */
+
+.introduction {
+  margin-bottom: 3%;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.titlePic {
+  filter: blur(3px);
+  height: 80vh;
+  position: absolute;
+  width: 99vw;
+  z-index: -2;
+}
+
+.introBox {
+  align-items: center;
+  background-color: rgba(0,0,0, 0.4);
+  height: 75vh;
+  width: 100%;
+}
+
+.introContent {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.introContent > h2 {
+  color:#fff;
+  display: block;
+  font-size: 125px;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.introContent > p {
+  color: #f4fefd;
+  font-size: 25px;
+  max-width: 80ch;
+  margin: 0 auto;  
+}
+
+.introBtns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.introBtns > button {
+  background-color: #ff8008;
+  margin: 3%
+}
+
+button:hover {
+  background-color: #FFA500;
+}
+
+button > a {
+  color: #f4fefd;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+button > a:hover { 
+  color: #f4fefd;
+  text-decoration: none;
+}
+
+/* Sample Menu Section */
+
+.sampleMenuDiv {
+  display: block;
+  height: 30%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  width: 95%; 
+}
+
+.sampleMenu {
+  justify-content: center;
+  margin-top: 2.5%;
+  line-height: 2em;
+}
+
+.sampleMenuPic {
+  align-items: right;
+  height: 75%;
+  margin-top: 15%;
+  margin-left: 2%;
+  width: 95%;
+}
+
+.sampleMenuDesc {
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+#sampleTitle {
+  color: #1a1c22;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.menuItems {
+  font-size: 1.5em;
+  margin-bottom: 1.5%;
+
+}
+
+.menuItems > li:hover {
+  border-bottom: 2px solid;
+  margin-left: 2%;
+  margin-bottom: .5%;
+}
+
+
+/* Full Menu */
+
+#apps {
+  font-size: 2em;
+  line-height: 2em;
+  list-style: none;
+  text-align: left;
+}
+
+#menuTitle {
+  font-size: 5em;
+  margin-bottom: 5%;
+}
+
+.appImgDiv {
+  float: right;
+}
+
+#appImg{
+  box-shadow: #ff8008 8px 5px;
+  height: 50vh;
+  width: 35vw;
+}
+
+#fullMenuTitle {
+  font-size: 8em;
+  margin-bottom: 3%;
+}
+
+.fullMenu {
+  height: auto;
+  line-height: 2em;
+}
+
+.appMenuDesc {
+  text-align: center;
+}
+
+#mainTitle {
+  text-align: center;
+}
+
+.choiceOfMeat {
+  display: block;
+  font-size: 2em;
+  line-height: 3em;
+}
+
+#menuPic {
+  filter:blur(0);
+  height: 65vh;
+  margin-bottom: .5%;
+  position: relative;
+  right: 0px;
+  width: 100vw;
+  z-index: 0;
+}
+
+.fullMenuDescLeft {
+  text-align: left;
+}
+
+#sides {
+  height: 65vh;
+  margin-bottom: .25%;
+  width: 97vw;
+}
+
+
+/* Call to action */
+
+.cta {
+  background-color: #ff8008;
+  border-top: #f4fefd outset 2px;
+  border-bottom: #f4fefd outset 2px;
+  height: 40vh;
+  line-height: 2em;
+  margin-bottom: 5%;
+  padding-top: 1.25em;
+  text-align: center;
+  width: 100vw;
+}
+
+.cta > h1 {
+  font-family: "Montserrat-Black";
+  color: #ededed;
+}
+
+#ctaBtn {
+  border: #f4fefd outset 2px;
+  font-size: 1.5em;
+  height: 8vh;
+  margin-top: 2%;
+  min-width: 8vw;
+}
+
+
+.cta > h1 {
+  margin-top: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Schedule */
+
+#schedule {
+  background-color: #FF5733;
+  border: #1a1c22 outset 3px;
+  color: #f4fefd;
+  font-size: 2em;
+  height: auto;
+  margin-left: 0%;
+  width: 100%;
+}
+
+#scheduleTitle {
+  font-size: 50px;
+  margin-bottom: 3%;
+}
+
+#scheduleYear {
+  font-size: 40px;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+#month {
+  background-color: #1a1c22;
+  font-size: 2em;
+}
+
+#monthTitle {
+  font-size: .75em;
+}
+
+#firstHalf {
+  border: 3px solid #1a1c22;
+  margin-right: 5%;
+}
+#secondHalf {
+  border: 3px solid #1a1c22;
+  margin-right: 5%;
+}
+
+
+
+.col-md-2 {
+  
+  background-color: #1a1c22;
+}
+
+
+#oddItem {
+  background-color: #ff8008;
+  border-top: 3px solid #1a1c22;
+  border-bottom: 3px solid #1a1c22;
+}
+
+/* FAQ */
+
+.faq {
+  background-color: #ededed;
+  height: auto;
+  line-height: 3em;
+  margin-bottom: 2.5%;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  width: 100%;
+}
+
+#faqTitle {
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+#faqTitle > h2 {
+  font-weight: bolder;
+}
+
+.faqContent {
+  padding-left: 10%;
+}
+
+.faqP {
+  font-size: 2em;
+}
+
+.faqPBold {
+  font-weight: bold;
+}
+
+.faqPPlain {
+  border-bottom: #1a1c22 1px solid;
+  margin-bottom: 1.5%;
+  width: 95%;
+}
+
+#faqImgDiv  {
+  align-items: center;
+}
+
+#faqImg {
+  box-shadow: #ff8008 8px 5px;
+  height: 75vh;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  width: 40vw;
+}
+
+/* Contact Form */
+
+.contactSection {
+  background-color: #ff8008;
+  border: #1a1c22 outset 3px;
+  font-size: 1.25em;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  padding: 0, 5px;
+  text-align: center;
+  width: 75%;
+}
+
+#publicCaterH2 {
+  align-items: center;
+  color: #f4fefd;
+  display: flex;
+  font-size: 2em;
+  justify-content: center;
+  line-height: 2.5em;
+  padding: 35px;
+  text-align: left;
+}
+
+.cFormLeft {
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+.formLabel {
+  color: #f4fefd;
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: left;
+}
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+  color: #1a1c22;
+  font-size: 15px;
+  width: 50vw;
+}
+
+#contactBtn {
+  background-color: #1a1c22;
+  color: #f4fefd;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+#contactBtn:hover {
+  background-color: #FF5733;
+}
+
+.captchaDiv {
+  text-align: center;
+}
+
+#captcha {
+  align-items: center;
+  display: inline-block;
+  padding: 5%;
+  width: 85%;
+}
+
+/* About Us */
+
+.about {
+  background-color: #ff8008;
+  font-size: 1em;
+  height: auto;
+  line-height: 3em;
+  margin-bottom: 2.5%;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+  text-align: left;
+  width: 100%;
+}
+
+.aboutImgDiv {
+  align-items: center;
+}
+
+.aboutP {
+  color: #f4fefd;
+  font-size: 2em;
+  padding: 25px;
+  text-align: left;
+}
+
+#aboutImg {
+  height: 50vh;
+  width: 35vw;
+}
+
+/* Footer */
+
+.brand {
+  border: #000 2px solid;
+  box-shadow: 3px 2px;
+  height: 10%;
+  margin-bottom: 3%;
+  width: 15%;
+}
+
+.footer {
+  text-align: center;
+  height: 15%;
+  line-height: 2em;
+  margin-top: 2%;
+}
+
+.social-icon {
+  color: #000;
+  margin: 20px;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+
+  /* index.html */
+
+  p {
+    font-size: .75em;
+  }
+
+  .titlePic {
+    height: 35vh;
+  }
+
+  #introTitle {
+    font-size: 3em;
+  }
+
+  #introP {
+    font-size: 1em;
+  }
+
+  .introBox {
+    height: 35vh;
+  }
+  
+  .introBtns {
+    height: 10vh;
+  }
+
+  .btn > a {
+    font-size: 1em;
+  }
+
+  .sampleMenuDiv{
+    font-size: 1em;
+  }
+
+  .brand {
+    height: 40%;
+    width: 40%;
+  }
+
+  /* menu.html */
+
+  #menuPic {
+    height: 35vh;
+  }
+
+  .fullMenu {
+    font-size: .65em;
+  }
+
+  #appImg {
+    height: 45vh;
+    width: 50vw;
+  }
+
+  #mainTitle {
+    font-size: 1.25em;
+  }
+
+  #meats {
+    font-size: 1em;
+  }
+  .sampleMenu {
+    font-size: .7em;
+  }
+
+  .menuItems {
+    font-size: 1em;
+  }
+
+  #sides {
+    height: auto;
+    font-size: .75em;
+  }
+
+  /* schedule.html */
+
+  .faq {
+    font-size: .75em;
+    text-align: center;
+  }
+
+  #faqImg {
+    height: 35vh;
+    width: 35vw;
+  }
+
+  .faqContent {
+    margin-left: 15%;
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .faqP {
+    width: 75vw;
+  }
+
+  .contactSection {
+    height: auto;
+  }
+
+ input[type="text"],
+ input[type="email"],
+ textarea {
+  color: #1a1c22;
+  font-size: 15px;
+  width: 50vw;
+}
+
+  .formLabel {
+    display: inline-block;
+   width: 240px;
+   
+  }
+
+  /* about.html */
+
+  .about {
+    font-size: 1.25em;
+  }
+
+  .aboutImgDiv {
+    display: flex;
+    justify-content: center;
+  }
+
+  #aboutImg {
+    height: 35vh;
+    width: 50vw;
+    
+  }
+
+}
+
+
+
