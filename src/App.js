@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './pages/Home';
 import Logo from './assets/Small Fry Thai.png';
+
 import Menu from './pages/Menu';
 import About from './pages/About';
 import {Link, Route, Routes} from "react-router-dom";
@@ -36,12 +37,15 @@ function App() {
           </ul>
         </div>
       </nav>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/schedule" element={<Schedule />} /> 
         <Route path="/about" element={<About />} /> 
       </Routes>
+
+
 
       <Footer />
     

@@ -1,9 +1,10 @@
 import React from "react";
+import TitlePic from '../../assets/introPic.jpg';
 
 function TitleImg() {
   return (
     <div>
-    <img class="titlePic" src="img/introPic.jpg" alt="Cooking Thai Dishes"></img>
+    <img class="titlePic" src={TitlePic} alt="Cooking Thai Dishes"></img>
   </div>  
   )
 }

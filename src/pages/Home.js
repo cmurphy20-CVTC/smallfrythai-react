@@ -1,8 +1,6 @@
 import React from "react";
 import TitleHome from "../components/Home/TitleHome";
 import SampleMenu from "../components/Home/SampleMenu";
-import CTA from "../components/Home/CTA";
-
 
 function Home() {
   return (
@@ -12,8 +10,6 @@ function Home() {
       <TitleHome />
 
       <SampleMenu />
-
-      <CTA />
 
     </div>
   )

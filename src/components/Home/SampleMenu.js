@@ -1,4 +1,5 @@
 import React from "react";
+import SampleMenuImg from '../../assets/pexels-pixabay-262897.jpg';
 
 function SampleMenu() {
   return (
@@ -7,7 +8,7 @@ function SampleMenu() {
   <div class="row sampleMenu">
     
     <div class="col-lg-4" >
-      <img class="sampleMenuPic" src="img/pexels-pixabay-262897.jpg" alt="Bowl of Spicy Pho"></img>
+      <img class="sampleMenuPic" src={SampleMenuImg} alt="Bowl of Spicy Pho"></img>
     </div>
     
     <div class="col-lg-8 sampleMenuDesc">

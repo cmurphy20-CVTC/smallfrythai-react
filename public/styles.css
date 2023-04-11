@@ -137,6 +137,8 @@ button > a:hover {
 }
 
 .sampleMenuPic {
+  border:#1a1c22 2px solid;
+  border-radius: 50%;
   align-items: right;
   height: 75%;
   margin-top: 15%;
@@ -483,6 +485,7 @@ button > a:hover {
 
 .brand {
   border: #000 2px solid;
+  border-radius: 50%;
   box-shadow: 3px 2px;
   height: 10%;
   margin-bottom: 3%;
