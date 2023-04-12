@@ -305,6 +305,7 @@ button > a:hover {
 
 #firstHalf {
   border: 3px solid #1a1c22;
+  margin-left: 1.5%;
   margin-right: 5%;
 }
 #secondHalf {
