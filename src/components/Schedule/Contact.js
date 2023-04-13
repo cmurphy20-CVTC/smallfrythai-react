@@ -16,10 +16,10 @@ function Contact() {
           data-netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
 
-            <div>
+            <div hidden>
               <input name="bot-field" />
             </div>
-            
+
             <p>
               <label class="formLabel">
                 Name: <input class="formInput form-control" type="text" name="name"/>
