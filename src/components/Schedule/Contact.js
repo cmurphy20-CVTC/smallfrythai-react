@@ -8,7 +8,7 @@ function Contact() {
 
           <h2 id="publicCaterH2">Application for Catering</h2>
 
-          <form name="contact" method="POST" netlify netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+          <form name="contact" method="POST" netlify netlify-honeypot="bot-field" onSubmit={handleSubmit}>
             <p>
               <label class="formLabel">
                 Name: <input class="formInput form-control" type="text" name="name"/>
@@ -22,7 +22,7 @@ function Contact() {
             </p>
             <p>
               <label id="formMessage" class="formLabel">
-                Message: <textarea class="formInput form-control" name="message" rows="10" cols="125"></textarea>
+                Message: <textarea class="formInput form-control" name="message" rows="10" cols="125" onChange={handleChange}></textarea>
               </label>
             </p>
             <div id="captcha">
