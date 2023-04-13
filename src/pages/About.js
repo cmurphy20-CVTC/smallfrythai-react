@@ -6,16 +6,20 @@ import AboutContent from '../components/About/AboutContent';
 
 function About() {
   return (
+
+    
     <div class="about">
-      <div class="row">
+      
 
         <AboutTitle />
 
         <AboutImg />
 
         <AboutContent />
-      </div>
+      
     </div>
+
+    
   )
 }
 

@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutContent() {
   return(
-    <div class="col-lg-6 aboutContent">
+    <div class="col-lg aboutContent">
     <div class="row aboutP">
       <p>We are three friends who graduated from culinary school together. One day we had the idea
         to open our own food truck. However, we faced a problem that every graduates faces, we were broke.
