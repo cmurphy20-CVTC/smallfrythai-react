@@ -8,7 +8,7 @@ function Contact() {
 
           <h2 id="publicCaterH2">Application for Catering</h2>
 
-          <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <form name="contact" method="POST">
             <p>
               <label class="formLabel">
                 Name: <input class="formInput form-control" type="text" name="name"/>
