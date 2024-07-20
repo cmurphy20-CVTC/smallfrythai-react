@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# smallFryThai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I created this site as a challenge to myself, there are a few restaurants in my area that do not have their own websites. The inspiration for the site came from 
+my love of Thai food and it grew from there. I used a name generator to come up with the name Small Fry Thai, also I am a fan of puns. With the name I thought that the
+feel of the site should be energetic, light and fun. The main challenge I had was figuring out the layout of each page and what content to include. A popular food truck
+in my area is Dhimiters, so I used there site for ideas how to display things like the menu. I'll breakdown the technology used, features and challenges.
 
-## Available Scripts
+Technologies Used
 
-In the project directory, you can run:
+For a responsive modern looking website I used Bootstrap so that the content will resize for various screens. The pages were created utilizing HTML and the content was formatted with CSS. I also used jQuery for some custom animations. This site is hosted on Netlify.
 
-### `npm start`
+Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To keep with the energetic and light feel of the site I pirmarily used the colors white and orange. As the user hovers over the menu items css animates each item to show
+which item is focused on. The user can also navigate to other pages like the 2023 schedule for the truck and find out more about the people who operate the truck. There is also a form users can fill out to request catering. The info from the form is then sent to an email adddress I control. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Challenges 
 
-### `npm test`
+The main challenge was figuring out the look of the site. I had an idea for the feel but wasn't exactly sure of how to display it. So I took ideas from a great site 
+for the Dhimiters food truck. A couple examples of ideas are the sample menu on the main page and the changing colors for the schedule. The Dhimiters site has a form
+for interested parties to fill out and request catering. After some research, I figured out that Netlify can handle form submimssions and even provide spam filtering.
+Netlify also has the ability to host the site. So any commits pushed to the remote repository automatically updates the hosted site.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
+Note when visitng the site please give a few moments for the images to load, as Netlify can be a little slow. 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
